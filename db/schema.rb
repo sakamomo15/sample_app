@@ -10,6 +10,8 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+# rails db:migrateで反映されたテーブルの内容はここでチェック
+
 ActiveRecord::Schema.define(version: 2024_02_07_113845) do
 
   create_table "active_storage_attachments", force: :cascade do |t|

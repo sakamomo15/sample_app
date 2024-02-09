@@ -8,8 +8,8 @@
   </ul>
 <% end %>
 
-<%=form_with model: @list, url: '/lists', method: :post do |f| %>
-
+<%= form_with model: @list, url: '/lists', method: :post do |f| %> <!--セキュリティ対策を組み込む-->
+  
   <h4>タイトル</h4>
   <%= f.text_field :title %>
 

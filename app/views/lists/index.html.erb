@@ -20,8 +20,10 @@
 <% @lists.each do |list| %>
 
   <p>タイトル</p>
-  <span>
+  <span><!--cssでここだけ変えたいよって時はspan-->
     <%= link_to list.title, list_path(list.id) %>
+    <!-- link_to 表示させるもの, リンク先URL -->
+    <!--list.カラム名 でそのレコードのカラムのデータが表示-->
   </span>
 
   <p>画像</p>
